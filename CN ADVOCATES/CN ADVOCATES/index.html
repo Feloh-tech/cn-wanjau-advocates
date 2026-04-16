@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>CN Wanjau Advocates</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <div class="brand">
+        <div class="logo" aria-hidden="true">
+          <!-- Simple black & gold logo: shield with initials -->
+          <svg width="56" height="56" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" role="img">
+            <rect width="64" height="64" rx="8" fill="#0b0b0b" />
+            <path d="M32 6 L44 18 V36 C44 48 32 58 32 58 C32 58 20 48 20 36 V18 L32 6 Z" fill="#b8860b" opacity="0.06"/>
+            <text x="32" y="38" text-anchor="middle" fill="#b8860b" font-family="Segoe UI, Roboto, Arial" font-size="18" font-weight="700">CN</text>
+          </svg>
+        </div>
+        <div class="name">CN Wanjau Advocates</div>
+      </div>
+      <nav class="main-nav" id="main-nav">
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#team">Team</a>
+        <a href="#reviews">Reviews</a>
+        <a href="#concept">Kenyan Law</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation">☰</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container">
+        <h1>Trusted Legal Counsel for Individuals & Businesses</h1>
+        <p>Experienced. Responsive. Results-driven. CN Wanjau Advocates provides practical legal solutions across a wide range of practice areas.</p>
+        <a class="btn" href="#contact">Get in touch</a>
+      </div>
+    </section>
+
+    <section id="about" class="container section">
+      <h2>About Us</h2>
+      <p>CN Wanjau Advocates is a Kenyan law firm dedicated to providing high-quality legal services with integrity and professionalism. We represent clients in litigation, corporate law, conveyancing, family law, and more.</p>
+    </section>
+
+    <section id="services" class="container section">
+      <h2>Services</h2>
+      <div class="grid">
+        <div class="card">
+          <h3>Litigation</h3>
+          <p>Strategic representation in courts and tribunals.</p>
+        </div>
+        <div class="card">
+          <h3>Corporate & Commercial</h3>
+          <p>Advising businesses on contracts, compliance and transactions.</p>
+        </div>
+        <div class="card">
+          <h3>Conveyancing & Property</h3>
+          <p>Assistance with sale, purchase and registration of property.</p>
+        </div>
+        <div class="card">
+          <h3>Family Law</h3>
+          <p>Compassionate counsel for matrimonial and guardianship matters.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="team" class="container section">
+      <h2>Our Team</h2>
+      <p>Led by CN Wanjau, our team combines local knowledge with practical legal experience to achieve the best outcomes for clients.</p>
+    </section>
+
+    <section id="reviews" class="container section">
+      <h2>Client Reviews</h2>
+      <p>Read what clients say about our service or leave your own review.</p>
+      <div class="reviews-wrap">
+        <ul id="reviews-list" class="reviews-list">
+          <!-- Reviews will appear here -->
+        </ul>
+
+        <form id="review-form" class="review-form">
+          <label for="rname">Name</label>
+          <input id="rname" name="rname" required>
+
+          <label for="rrating">Rating</label>
+          <select id="rrating" name="rrating">
+            <option value="5">5 - Excellent</option>
+            <option value="4">4 - Very Good</option>
+            <option value="3">3 - Good</option>
+            <option value="2">2 - Fair</option>
+            <option value="1">1 - Poor</option>
+          </select>
+
+          <label for="rmessage">Review</label>
+          <textarea id="rmessage" name="rmessage" rows="4" required></textarea>
+
+          <button class="btn" type="submit">Submit Review</button>
+        </form>
+      </div>
+    </section>
+
+    <section id="concept" class="container section">
+      <h2>Kenyan Legal Concept</h2>
+      <p><strong>Doctrine of Separation of Powers:</strong> In Kenyan law the separation of powers between the Legislature, Executive and Judiciary is an important constitutional principle that ensures checks and balances. Our firm has experience navigating constitutional questions, judicial review applications and matters that require an understanding of public law remedies under the Constitution of Kenya, 2010.</p>
+    </section>
+
+    <section id="contact" class="container section contact-section">
+      <h2>Contact</h2>
+      <div class="contact-grid">
+        <form id="contact-form">
+          <label for="name">Name</label>
+          <input id="name" name="name" required>
+
+          <label for="email">Email</label>
+          <input id="email" name="email" type="email" required>
+
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="6" required></textarea>
+
+          <button class="btn" type="submit">Send</button>
+        </form>
+
+        <div class="contact-info">
+          <p><strong>Phone:</strong> 0746156552</p>
+          <p><strong>Email:</strong> <a href="mailto:ndegwelix67@gmail.com">ndegwelix67@gmail.com</a></p>
+          <p><strong>Address:</strong> Kiawara, Nyeri</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <small>© <span id="year"></span> CN Wanjau Advocates. All rights reserved.</small>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
